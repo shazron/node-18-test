@@ -1,7 +1,8 @@
 # node-18-tests
 
 - Various node-18 tests. 
-- Tests that `node:` protocol imports are **not** required in node-18. 
+- Tests that `node:` protocol imports are **not** required in node-18.
+- Test that the global fetch is not the same as node-fetch (in case node-fetch just defaults to the global fetch). This is for compatibility reasons since node-fetch is not 100% compliant with the spec.
 - Includes a linter rule to detect if you are using the `node:` protocol import.
 
 ## Pre-requisites
