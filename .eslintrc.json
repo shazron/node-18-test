@@ -1,0 +1,14 @@
+{
+  "env": {
+    "es2022": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": [
+    "unicorn"
+  ],
+  "rules": {
+    "unicorn/prefer-node-protocol": "warn"
+  }
+} 
